@@ -1,0 +1,11 @@
+<div>
+  <h1>Bienvenido a Sneaker Store</h1>
+  <h2>Productos:</h2>
+  {{#each products}}
+    <div>
+      <h3>Zapatillas: {{this.title}}</h3>
+      <p>{{this.description}}</p>
+      <span>$ {{this.price}}</span>
+    </div>
+  {{/each}}
+</div>
